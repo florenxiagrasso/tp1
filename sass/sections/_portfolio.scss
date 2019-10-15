@@ -1,0 +1,33 @@
+#portfolio {
+   
+.contenedor {
+ display: flex;
+ flex-direction:row;
+ flex-flow:wrap;
+ justify-content: space-around;
+ align-content: center;
+ position: relative;
+ width: 50%;
+ &:hover {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+}
+}
+
+.elemento {
+    width: 25%;
+}
+
+.span-tittle{
+    font-size: 20px;
+    font-weight: 500;
+    color: $blanco;
+    cursor: pointer;
+    &:hover{
+        color: $celeste;
+    }
+}
+}

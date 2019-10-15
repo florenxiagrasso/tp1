@@ -1,0 +1,49 @@
+#portfolio {
+
+    .button-all{
+    background-color: $celeste;
+    color:$blanco;
+    padding:18px;
+    font-size:12px;
+    border-radius:5px;
+    cursor: pointer;
+    }
+
+    .button-hov{
+        background-color: $celestin;
+        color:$celeste;
+        padding:18px;
+        font-size:12px;
+        border-radius:5px;
+        cursor: pointer;
+        &:hover {
+            background-color: $celeste;
+            color: $blanco;
+        }
+    }
+}
+
+#contact{
+    .button-contact{
+        height: 38px;
+        background-color: $celeste;
+        color: $blanco;
+        border-radius: 5px;
+        cursor: pointer; 
+        &:hover {
+            background-color: $send;
+        };
+    }
+}
+
+#wayne-foot {
+    .button-subscribe{
+        height: 38px;
+        background-color: $celeste;
+        color: $blanco;
+        cursor: pointer;
+        &:hover {
+            background-color: $send;
+        }
+    }
+}
