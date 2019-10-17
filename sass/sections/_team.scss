@@ -1,9 +1,31 @@
 #team {
 
-    background: url(../sections/team-01.jpg);
-    background: url(../sections/team-02.jpg);
-    background: url(../sections/team-03.jpg);
-    background: url(../sections/team-04.jpg);
+    .container{
+        /*agregar @media*/
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
-    border-radius: 20px;
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    .member{
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    }
+
+    
+
+
+    
 }

@@ -1,6 +1,11 @@
 #testimonials {
     background-color: $celestin;
-    background: url(../sections/testimonial-1.jpg);
-    border-radius: 20px;
-
+    img{
+        width: 120px;
+        border-radius: 50%;
+        float: left;
+        position: relative;
+        left: 30%;
+    }
+    
 }

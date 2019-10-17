@@ -5,8 +5,9 @@
     color:$blanco;
     padding:18px;
     font-size:12px;
-    border-radius:5px;
+    border-radius:50px;
     cursor: pointer;
+    border: none;
     }
 
     .button-hov{
@@ -14,7 +15,8 @@
         color:$celeste;
         padding:18px;
         font-size:12px;
-        border-radius:5px
+        border-radius:50px;
+        border: none;
         cursor: pointer;
         &:hover {
             background-color: $celeste;
