@@ -1,0 +1,52 @@
+@charset "UTF-8";
+body h1, body h3, body h4, body h5 ¨ {
+  font-family: “Montserrat”, sans-serif;
+  text-align: center;
+  color: #405365;
+}
+body p {
+  font-family: “Open Sans”, sans-serif;
+  color: #7C8B96;
+  position: relative;
+}
+
+#portfolio h3 {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+#testimonials h1 {
+  font-size: 12px;
+}
+#testimonials h3 {
+  font-size: 10px;
+}
+#testimonials h4 {
+  font-size: 9px;
+}
+
+#team h1 {
+  font-size: 9px;
+}
+
+#clients h1 {
+  font-size: 8px;
+}
+
+#contact h1 {
+  font-size: 8px;
+}
+
+#wayne-foot h1 {
+  font-size: 9px;
+}
+#wayne-foot h4 {
+  font-size: 8px;
+}
+
+#footer h5 {
+  font-size: 7px;
+}
+
+/*# sourceMappingURL=main.css.map */
