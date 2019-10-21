@@ -7,18 +7,27 @@ h1{
    
     text-align: center;
     color: $titulo;
-    
-    font-weight: 500;
+    font-family: $title-font;
+    font-size: 36px;
+    font-style: bold;
     position: relative;
     left: 60px;
     width: 1025px;
 }
 
-p {
+p{
     font-family: $paragraph-font;
-    position: relative;
+   
 }
 
+#testimonials{ 
+p{
+    font-family: $paragraph-font;
+    position: relative;
+    width: 474px;
+}
+
+}
 
 #portfolio{
 h3{
@@ -31,20 +40,6 @@ h3{
     padding: 0;
     width: 1311px;
     
-}
-
-
-
-#testimonials{
-    h1{
-        margin: 0;
-    }
-    h3{
-        margin: 0;
-    }
-    h4{
-        margin: 0;
-    }
 }
 
 

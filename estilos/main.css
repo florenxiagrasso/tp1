@@ -5,7 +5,9 @@ body {
 h1 {
   text-align: center;
   color: #405365;
-  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-style: bold;
   position: relative;
   left: 60px;
   width: 1025px;
@@ -13,7 +15,12 @@ h1 {
 
 p {
   font-family: "Open Sans", sans-serif;
+}
+
+#testimonials p {
+  font-family: "Open Sans", sans-serif;
   position: relative;
+  width: 474px;
 }
 
 #portfolio h3 {
@@ -26,14 +33,13 @@ p {
   padding: 0;
   width: 1311px;
 }
-#portfolio #testimonials h1 {
-  margin: 0;
-}
-#portfolio #testimonials h3 {
-  margin: 0;
-}
-#portfolio #testimonials h4 {
-  margin: 0;
+#portfolio #team p {
+  text-align: center;
+  margin: auto;
+  font-size: 15px;
+  padding-bottom: 60px;
+  color: #556877;
+  width: 50%;
 }
 #portfolio #contact .h1 {
   padding-bottom: 30px;
@@ -304,7 +310,6 @@ p {
   flex-direction: column;
   text-align: center;
   opacity: 1;
-  transition: 0.2s linear;
   height: 100%;
   width: 100%;
   background: cover;
@@ -352,19 +357,34 @@ p {
   margin: 0;
 }
 
+#team {
+  background: #FFFFFF;
+  padding: 60px 0;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}
 #team .container {
-  /*agregar @media*/
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
+#team .header {
+  text-align: center;
+  margin: auto;
+  font-size: 15px;
+  padding-bottom: 60px;
+  color: #556877;
+  width: 50%;
+}
 #team .row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-left: 20px;
+}
+#team .fade-in {
+  margin: 0 18px 0 18px;
+  max-width: 21%;
 }
 #team .member {
   text-align: center;
@@ -373,16 +393,32 @@ p {
   border-radius: 50%;
   overflow: hidden;
 }
-#team h1 {
-  font-size: 36px;
-  color: #283d50;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  position: relative;
+#team .img-fluid {
+  max-width: 100%;
+  height: 300px;
+}
+#team .member-info {
+  color: #FFFFFF;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 0.2s;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+}
+#team .member:hover .member-info {
+  background: rgba(0, 62, 128, 0.7);
+  opacity: 1;
+  transition: 0.4s;
 }
 
 #testimonials {
+  padding: 60px 0;
+  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   background-color: #ECF5FF;
 }
 #testimonials img {
@@ -390,15 +426,40 @@ p {
   border-radius: 50%;
   float: left;
   position: relative;
-  left: 30%;
+  left: 20%;
 }
-#testimonials h1 {
+#testimonials .saul-ceo {
+  position: relative;
+  left: 20%;
+}
+#testimonials .saul-ceo h1 {
   font-size: 36px;
-  color: #283d50;
+  color: #6683A3;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+}
+#testimonials .saul-ceo h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #111;
+  margin-left: 140px;
+}
+#testimonials p {
+  font-style: italic;
+  color: #6683A3;
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
   position: relative;
+  left: 20%;
+  margin: 0 0 15px 140px;
+}
+#testimonials h4 {
+  font-size: 14px;
+  color: #999;
+  margin: 0 0 15px 0;
+  margin-left: 140px;
 }
 
 #wayne-foot {
