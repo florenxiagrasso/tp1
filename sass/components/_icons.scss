@@ -1,12 +1,12 @@
 #portfolio{
 
     .far, .fas{
+    
+    position: relative;
+    top: 7px;
     background-color: $celeste;
-    border-radius: 15px;
     cursor: pointer;
-    &:hover{
-        background-color: $celestin;
-    }
+    
 }
 }
 
@@ -14,20 +14,19 @@
 
     .fas, .far{
         position: relative;
-        padding: 11px;
-        left: 0px;
-        top: 1px;
+        padding: 10px;
+        left: 2px;
+        top: -8px;
     }
 }
 
 #wayne-foot{
     
     .social-media{
-        background-color: $celeste;
+       
         border-radius: 15px;
         cursor: pointer;
-        &:hover{
-            background-color: $celestin;
-        }
+        
     }
+
 }

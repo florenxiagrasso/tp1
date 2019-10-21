@@ -1,7 +1,139 @@
 #contact {
-    .form-contact {
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    padding: 60px 0;
+    overflow: hidden;
+    width: 1379px;
+    height: 488px;
+
+    .container-fluid{
+        width: 913px;
+        height: 540px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        box-sizing: border-box;
+    }
+
+    
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        box-sizing: border-box;
+        width: 943px;
+        height: 68px;
+    }
+
+    .column{
+
+        position: relative;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+     
+
+
+    .column2{
+        position: relative;
+        left: 88%;
+        bottom: 318px;
+        width: 61%;
+        padding-right: 15px;
+        padding-left: 15px;
+        
+        
+    }
+    
+
+    .info{
+        @media (min-width: 768px){
+
+        max-width: 41.666667%;
+        box-sizing: border-box;
+        }
+
+        i{
+            font-size: 18px;
+            color: #007bff;
+            float: left;
+            line-height: 1;
+            box-sizing: border-box;
+            
+        }
+
+        p{
+            padding: 0 0 10px 0;
+            line-height: 28px;
+            font-size: 14px;
+            margin: 0 0 30px 0;
+            box-sizing: border-box;
+            height: 68px;
+        }
+        
+    }
+        .form-row{
+            
+        display: flex;
+        flex-wrap: wrap;
+
+        padding-right: 5px;
+        padding-left: 5px;
+        margin-bottom: 5px;
+        box-sizing: border-box;
+        
+        }
+
+        .form-group{
+            margin-bottom: 1rem;
+        }
+
+        .form-control{
+            display: block;
+            padding: .375rem .75rem;
+            line-height: 1.5;
+            color: #495057;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            margin-bottom: 5px;
+            margin: 5px;
+            width: 100%;;
+    
+        }
+
+        .text-center{
+            text-align: center;
+        }
+
+        .contact-form {
         padding-right: 5px;
         padding-left: 5px; 
         position: relative;
+        bottom: 337px;
+        left: 832px;
     }
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

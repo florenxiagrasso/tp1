@@ -1,73 +1,63 @@
 body{
+    margin: 0;
+}
 
-h1 , h3 , h4 , h5 ¨{
+h1{
 
-    font-family: $title-font;
+   
     text-align: center;
     color: $titulo;
-    font-size: $main-font-size;
+    
+    font-weight: 500;
+    position: relative;
+    left: 60px;
+    width: 1025px;
 }
 
 p {
     font-family: $paragraph-font;
-    color: $parrafo;
-    
+    position: relative;
 }
-}
+
 
 #portfolio{
 h3{
-    font-size:15px;
-    font-weight:500;
-    margin-bottom:0px;
-}
+    font-family: $title-font;
+    font-size: $main-font-size;
+    font-weight: normal;
+    text-align: center;
+    position: relative;
+    margin: 0 0 20px 0;
+    padding: 0;
+    width: 1311px;
+    
 }
 
-#testimonials{ /*agregar mixin media para el tamanio del background celestin*/
+
+
+#testimonials{
+    h1{
+        margin: 0;
+    }
     h3{
-        font-size: 20px;
-        font-weight: bold;
-        margin: 10px 0 5px 0;
-        margin-left: 140px; 
+        margin: 0;
     }
     h4{
-    font-size: 14px;
-    color: $gris;
-    margin: 0 0 15px 0;
-    margin-left: 140px;
-    }
-    p {
-        font-style: italic;
-        margin: 0 0 15px 140px;
-        display: block;
-        padding: 0;
-
+        margin: 0;
     }
 }
 
-#team{
-    
-}
 
-#clients{
-    
-}
+
 
 #contact{
-    
-}
-
-#wayne-foot{
-    h1{
-        font-size:9px;
-    }
-    h4{
-        font-size:8px;
+    .h1{
+        padding-bottom: 30px;
+        
+       
     }
 }
 
-#footer{
-    h5{
-        font-size:7px;
-    }
+
+
 }
