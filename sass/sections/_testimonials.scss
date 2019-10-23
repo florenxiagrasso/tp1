@@ -1,0 +1,51 @@
+#testimonials {
+    padding: 60px 0;
+    box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    width: 1300px;
+    
+        background-color: $celestin;
+        img{
+            width: 120px;
+            border-radius: 50%;
+            float: left;
+            position: relative;
+            left: 20%;
+        }
+        .saul-ceo{ 
+            position: relative;
+            left: 20%;
+
+        h3{
+            font-size: 20px;
+            font-weight: bold;
+            margin: 10px 0 5px 0;
+            color: #111;
+            margin-left: 140px;
+        }
+
+    }
+    p{
+       font-style: italic;
+       font-size: 14px;
+       color: #444;
+       font-family: "Open Sans", sans-serif;;
+       text-align: left;
+       font-family: $paragraph-font;
+       position: relative;
+       left: 20%;
+       margin: 0 0 15px 140px;
+       width: 474px;
+       
+
+    }
+    
+    
+    h4{
+        font-size: 14px;
+        color: #999;
+        margin: 0 0 15px 0;
+        margin-left: 140px;
+    }
+
+    
+}

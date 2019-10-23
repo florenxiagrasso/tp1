@@ -1,0 +1,588 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #405365;
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-style: bold;
+  position: relative;
+  left: 60px;
+  width: 1025px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+#testimonials p {
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  width: 474px;
+}
+
+#portfolio h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+  text-align: center;
+  position: relative;
+  margin: 0 0 20px 0;
+  padding: 0;
+  width: 1311px;
+}
+#portfolio #team p {
+  text-align: center;
+  margin: auto;
+  font-size: 15px;
+  padding-bottom: 60px;
+  color: #556877;
+  width: 50%;
+}
+#portfolio #contact .h1 {
+  padding-bottom: 30px;
+}
+
+#portfolio .button-all {
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: #007BFF;
+  color: #FFFFFF;
+  padding: 6px 20px;
+  margin: 23px 6px 15px 520px;
+  font-size: 12px;
+  border-radius: 50px;
+  line-height: 20px;
+  text-transform: uppercase;
+  border-style: none;
+  cursor: pointer;
+}
+#portfolio .button-hov {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 6px 20px;
+  margin: 5px 0 35px 0;
+  background-color: #ECF5FF;
+  color: #007BFF;
+  line-height: 20px;
+  font-size: 12px;
+  border-radius: 50px;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-style: none;
+}
+#portfolio .button-hov:hover {
+  background-color: #007BFF;
+  color: #FFFFFF;
+}
+
+#contact .button-contact {
+  border: 0;
+  border-radius: 20px;
+  padding: 8px 30px;
+  height: 38px;
+  background-color: #007BFF;
+  color: #FFFFFF;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#contact .button-contact:hover {
+  background-color: #0067D5;
+}
+
+#wayne-foot .button-subscribe {
+  height: 38px;
+  background-color: #007BFF;
+  color: #FFFFFF;
+  margin-top: 81px;
+}
+#wayne-foot .button-subscribe .submit {
+  background: #007bff;
+  border: 0;
+  width: 28%;
+  height: 34px;
+  padding: 0 0 2px 2px;
+  text-align: center;
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+  position: relative;
+  left: -4px;
+  bottom: -1px;
+}
+#wayne-foot .button-subscribe .submit:hover {
+  background-color: #0067D5;
+}
+#wayne-foot input {
+  border: 0;
+  padding: 6px 8px;
+  width: 64%;
+  height: 26px;
+}
+
+#portfolio .far, #portfolio .fas {
+  position: relative;
+  top: 7px;
+  background-color: #007BFF;
+  cursor: pointer;
+}
+
+#contact .fas, #contact .far {
+  position: relative;
+  padding: 10px;
+  left: 2px;
+  top: -8px;
+}
+
+#wayne-foot .social-media {
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+#contact {
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  padding: 60px 0;
+  overflow: hidden;
+  width: 1379px;
+  height: 488px;
+}
+#contact .container-fluid {
+  width: 913px;
+  height: 540px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+#contact .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  box-sizing: border-box;
+  width: 943px;
+  height: 68px;
+}
+#contact .column {
+  position: relative;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+#contact .column2 {
+  position: relative;
+  left: 88%;
+  bottom: 318px;
+  width: 61%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 768px) {
+  #contact .info {
+    max-width: 41.666667%;
+    box-sizing: border-box;
+  }
+}
+#contact .info i {
+  font-size: 18px;
+  color: #007bff;
+  float: left;
+  line-height: 1;
+  box-sizing: border-box;
+}
+#contact .info p {
+  padding: 0 0 10px 0;
+  line-height: 28px;
+  font-size: 14px;
+  margin: 0 0 30px 0;
+  box-sizing: border-box;
+  height: 68px;
+}
+#contact .form-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
+#contact .form-group {
+  margin-bottom: 1rem;
+}
+#contact .form-control {
+  display: block;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  margin-bottom: 5px;
+  margin: 5px;
+  width: 100%;
+}
+#contact .text-center {
+  text-align: center;
+}
+#contact .contact-form {
+  padding-right: 5px;
+  padding-left: 5px;
+  position: relative;
+  bottom: 337px;
+  left: 832px;
+}
+
+#footer {
+  width: 1385px;
+  padding-top: 30px;
+  background-color: #00428A;
+  text-align: center;
+  color: #FFFFFF;
+}
+#footer h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+#portfolio {
+  padding: 60px 0;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}
+#portfolio .clearfix ::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+#portfolio .portfolio-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2px 3px 4px;
+  width: 1032px;
+  justify-content: center;
+  align-items: center;
+  border-spacing: 5px;
+  padding-left: 150px;
+}
+@media (min-width: 768px) {
+  #portfolio .portfolio-container {
+    flex-flow: row wrap;
+  }
+}
+@media (min-width: 1025px) {
+  #portfolio .portfolio-container {
+    flex-flow: row wrap;
+  }
+}
+#portfolio .portfolio-item {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+  height: 250px;
+  margin: 5px;
+  width: 330px;
+}
+#portfolio .portfolio-wrap {
+  overflow: hidden;
+  position: relative;
+  border-radius: 6px;
+  margin: 0px 0px 5px 0px;
+  height: 100%;
+  width: 100%;
+}
+#portfolio .img-fluid {
+  vertical-align: middle;
+  border-style: none;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+#portfolio .portfolio-info {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+  background: cover;
+}
+#portfolio .link-preview {
+  display: inline-block;
+  line-height: 1;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  background: #007bff;
+  border-radius: 50%;
+  margin: 10px 4px 0 4px;
+}
+#portfolio .link-details {
+  cursor: pointer;
+  text-decoration: underline;
+  display: inline-block;
+  line-height: 1;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  background: #007bff;
+  border-radius: 50%;
+  margin: 10px 4px 0 4px;
+}
+#portfolio .far {
+  font-size: 22px;
+  color: #fff;
+}
+#portfolio a {
+  position: relative;
+  bottom: 29px;
+  font-size: 22px;
+  line-height: 1px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: transparent;
+  margin: -1;
+}
+#portfolio p {
+  position: relative;
+  bottom: 48px;
+  margin: 0;
+}
+
+#team {
+  background: #FFFFFF;
+  padding: 60px 0;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}
+#team .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#team .header {
+  text-align: center;
+  margin: auto;
+  font-size: 15px;
+  padding-bottom: 60px;
+  color: #556877;
+  width: 50%;
+}
+#team .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+}
+#team .fade-in {
+  margin: 0 18px 0 18px;
+  max-width: 21%;
+}
+#team .member {
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+}
+#team .img-fluid {
+  max-width: 100%;
+  height: 300px;
+}
+#team .member-info {
+  color: #FFFFFF;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 0.2s;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+}
+#team .member:hover .member-info {
+  background: rgba(0, 62, 128, 0.7);
+  opacity: 1;
+  transition: 0.4s;
+}
+
+#testimonials {
+  padding: 60px 0;
+  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  background-color: #ECF5FF;
+}
+#testimonials img {
+  width: 120px;
+  border-radius: 50%;
+  float: left;
+  position: relative;
+  left: 20%;
+}
+#testimonials .saul-ceo {
+  position: relative;
+  left: 20%;
+}
+#testimonials .saul-ceo h1 {
+  font-size: 36px;
+  color: #6683A3;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+#testimonials .saul-ceo h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #111;
+  margin-left: 140px;
+}
+#testimonials p {
+  font-style: italic;
+  color: #6683A3;
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  left: 20%;
+  margin: 0 0 15px 140px;
+}
+#testimonials h4 {
+  font-size: 14px;
+  color: #999;
+  margin: 0 0 15px 0;
+  margin-left: 140px;
+}
+
+#wayne-foot {
+  padding: 60px 0 30px 0;
+  width: 1385px;
+  height: 368px;
+  background-color: #004A99;
+  display: flex;
+  color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+#wayne-foot h3 {
+  font-size: 34px;
+  font-weight: normal;
+}
+#wayne-foot .wayne-div {
+  width: 330px;
+  height: 223px;
+  padding-left: 43px;
+}
+#wayne-foot ul {
+  list-style: none;
+  margin-left: 2px;
+  font-family: "Open Sans", sans-serif;
+}
+#wayne-foot ul li {
+  display: list-item;
+  padding: 8px 0;
+}
+#wayne-foot ul a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#wayne-foot .social-media a {
+  box-sizing: border-box;
+  display: block;
+  font-size: 18px;
+  display: inline-block;
+  background: #007bff;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+}
+
+#clients {
+  display: inline-block;
+  background-color: #ECF5FF;
+  box-sizing: border-box;
+}
+#clients .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: 50px;
+}
+#clients .clearfix ::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+#clients .section-background {
+  background: #FFFFFF;
+}
+#clients .section-header h1 {
+  font-size: 36px;
+  color: #283d50;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  position: relative;
+}
+#clients .section-header p {
+  text-align: center;
+  margin: auto;
+  font-size: 15px;
+  padding-bottom: 60px;
+  color: #556877;
+  width: 50%;
+}
+#clients .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+#clients .clients-wrap {
+  margin-bottom: 30px;
+  border-top: 5px #007BFF;
+  border-left: 5px #007BFF;
+  border-right: 5px #007BFF;
+  border-bottom: 5px #007BFF;
+}
+#clients .fadeInUp {
+  animation-name: fadeInUp;
+}
+#clients .no-gutters {
+  align-content: center;
+}
+#clients .client-logo {
+  background-color: #FFFFFF;
+  display: flex;
+  padding: 64px;
+  padding-top: 64px;
+  padding-right: 64px;
+  padding-bottom: 64px;
+  padding-left: 64px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 54px;
+  width: 145px;
+  margin: 1px 5px 5px 1px;
+}
+#clients .img-fluid {
+  height: 43px;
+  width: 101px;
+}
+
+/*# sourceMappingURL=main.css.map */

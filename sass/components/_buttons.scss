@@ -1,0 +1,89 @@
+#portfolio {
+
+    .button-all{
+        display: inline-block;
+        box-sizing: border-box;
+        background-color: $celeste;
+        color:$blanco;
+        padding: 6px 20px;
+        margin: 23px 6px 15px 520px;
+        font-size:12px;
+        border-radius:50px;
+        line-height: 20px;
+        text-transform: uppercase;
+        border-style: none;
+        cursor: pointer;
+        
+    }
+
+    .button-hov{
+        display: inline-block; 
+        box-sizing: border-box;
+        padding: 6px 20px;
+        margin: 5px 0 35px 0;
+        background-color: $celestin;
+        color:$celeste;
+        line-height: 20px;
+        font-size:12px;
+        border-radius:50px;
+        cursor: pointer;
+        text-transform: uppercase;
+        border-style: none;
+        &:hover {
+            background-color: $celeste;
+            color: $blanco;
+        }
+    }
+}
+
+#contact{
+    .button-contact{
+
+       
+        border: 0;
+        border-radius: 20px;
+        padding: 8px 30px;
+        height: 38px;
+        background-color: $celeste;
+        color: $blanco;
+        border-radius: 20px;
+        cursor: pointer; 
+        &:hover {
+            background-color: $send;
+        };
+    }
+}
+
+#wayne-foot {
+    .button-subscribe{
+        height: 38px;
+        background-color: $celeste;
+        color: $blanco;
+        margin-top: 81px;
+        
+        .submit{
+            background: #007bff;
+            border: 0;
+            width: 28%;
+            height: 34px;
+            padding: 0 0 2px 2px;
+            text-align: center;
+            color: #fff;
+            transition: 0.3s;
+            cursor: pointer;
+            &:hover {
+                background-color: $send;
+            }
+            position: relative;
+            left: -4px;
+            bottom: -1px;
+        }
+    }
+    input{ 
+    border: 0;
+    padding: 6px 8px;
+    width: 64%;
+    height: 26px;
+    }
+   
+}

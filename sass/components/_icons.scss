@@ -1,0 +1,33 @@
+#portfolio{
+
+    .far, .fas{
+    
+    position: relative;
+    top: 7px;
+    background-color: $celeste;
+    cursor: pointer;
+    
+}
+}
+
+
+#contact {
+
+    .fas, .far{
+        position: relative;
+        padding: 10px;
+        left: 2px;
+        top: -8px;
+    }
+}
+
+#wayne-foot{
+    
+    .social-media{
+       
+        border-radius: 15px;
+        cursor: pointer;
+        
+    }
+
+}

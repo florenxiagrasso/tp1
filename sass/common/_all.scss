@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+}
+
+h1{
+
+   
+    text-align: center;
+    color: $titulo;
+    font-family: $title-font;
+    font-size: 36px;
+    font-style: bold;
+    position: relative;
+    left: 60px;
+    width: 1025px;
+}
+
+p{
+    font-family: $paragraph-font;
+   
+}
+
+#testimonials{ 
+p{
+    font-family: $paragraph-font;
+    position: relative;
+    width: 474px;
+}
+
+}
+
+#portfolio{
+h3{
+    font-family: $title-font;
+    font-size: $main-font-size;
+    font-weight: normal;
+    text-align: center;
+    position: relative;
+    margin: 0 0 20px 0;
+    padding: 0;
+    width: 1311px;
+    
+}
+
+
+
+
+#contact{
+    .h1{
+        padding-bottom: 30px;
+        
+       
+    }
+}
+
+
+
+}

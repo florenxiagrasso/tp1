@@ -1,0 +1,91 @@
+#clients { 
+
+    display: inline-block;
+    background-color: $celestin;
+    box-sizing: border-box;
+      
+        .container{ 
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: 50px;
+        }
+
+        .clearfix ::after {
+            display: block;
+            clear: both;
+            content: "";
+        }
+       
+        .section-background{
+            background: $blanco;
+        }
+    
+    .section-header {
+        h1 {
+            font-size: 36px;
+            color: #283d50;
+            text-align: center;
+            font-family: $title-font;
+            font-weight: 500;
+            position: relative;
+        }
+        
+        p{
+            text-align: center;
+            margin: auto;
+            font-size: 15px;
+            padding-bottom: 60px;
+            color: #556877;
+            width: 50%;
+        }
+
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .clients-wrap {
+        margin-bottom: 30px;
+        border-top: 5px $celeste;
+        border-left: 5px $celeste;
+        border-right: 5px $celeste;
+        border-bottom: 5px $celeste;
+    }
+
+    .fadeInUp {
+        animation-name: fadeInUp;
+    }
+
+    .no-gutters {
+        align-content: center;
+        
+    }
+
+    .client-logo {
+        
+        background-color: $blanco;
+        display: flex;
+        padding: 64px;
+        padding-top: 64px;
+        padding-right: 64px;
+        padding-bottom: 64px;
+        padding-left: 64px;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        height: 54px;
+        width: 145px;
+        margin: 1px 5px 5px 1px;
+        
+        }
+
+                .img-fluid {
+                    height: 43px;
+                    width: 101px;
+                }
+  
+}
