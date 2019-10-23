@@ -1,0 +1,299 @@
+<html>
+    <head>
+        <!--Meta Fede (para que se renderise mejor, sino se ve mas chiquito)-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Linkear con css-->
+        <link rel="stylesheet" href="estilos/estilos.css">
+        <!-- Titulo de pestaña-->
+        <title>Wayne Enterprises</title>
+        <!--Favicon-->
+        
+        <!--Tipografia-->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+        <!--Iconos-->
+        <script src="https://kit.fontawesome.com/3706ea2aa3.js" crossorigin="anonymous"></script>
+        <script src="https://code.iconify.design/1/1.0.3/iconify.min.js"></script>
+        <link href=“https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css” rel=“stylesheet” integrity=“sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN” crossorigin=“anonymous”>    </head>
+    <body>
+        <!-- SECCION HEADER -->
+         <header class="header">
+            <div class="alinear-elementos">
+                <!--Logo ADA-->
+                <img class="logo-ada" src="img/logo-tp.png">
+                <!--Icono hamburguesa-->
+                <label for="check1" type="checkbox">
+                    <i class="hamburguesa fas fa-bars"></i>
+                </label>
+            </div>
+
+            <input id="check1" class="checkbox" type="checkbox">
+            <nav>
+                <input id="check4" class="checkbox" type="checkbox">
+                <label for="check1" type="checkbox">
+                    <i class="icono-cruz fa fa-times" aria-hidden="true"></i>
+                </label>
+                <div class="side-menu">
+                    <ul class="menu">
+                        <li><a class="a-menu boton-home" href="#">Home</a></li>
+                        <li><a class="a-menu" href="#">About Us</a></li>
+                        <li><a class="a-menu" href="#">Services</a></li>
+                        <li><a class="a-menu" href="#">Portfolio</a></li>
+                        <li><a class="a-menu" href="#">Team</a></li>
+                        <li>
+                            <a class="a-menu" href="#">
+                                Drop Down
+                                <label for="check2" type="checkbox">
+                                    <i class="iconos-flecha-desktop fa fa-arrow-down" aria-hidden="true"></i>
+                                    <i class="icono-flecha-1 fa fa-arrow-up" aria-hidden="true"></i>
+                                </label>
+                            </a>
+                            <input id="check2" class="checkbox" type="checkbox">
+                            <ul class="a-menu submenu-1">
+                                <li><a class="a-menu" href="#">Drop Down 1</a></li>
+                                <li>
+                                    <a class="a-menu" href="#">
+                                        Drop Down 2
+                                        <label for="check3" type="checkbox">
+                                            <i class="icono-flecha-desktop fa fa-arrow-right" aria-hidden="true"></i>
+                                            <i class="icono-flecha-2 fa fa-arrow-down" aria-hidden="true"></i>
+                                        </label>
+                                    </a>
+                                    <input id="check3" class="checkbox" type="checkbox">
+                                    <ul class="submenu-2">
+                                        <li><a class="a-menu" href="#">Deep Drop Down</a></li>
+                                        <li><a class="a-menu" href="#">Deep Drop Down</a></li>
+                                        <li><a class="a-menu" href="#">Deep Drop Down</a></li>
+                                        <li><a class="a-menu" href="#">Deep Drop Down</a></li>
+                                        <li><a class="a-menu" href="#">Deep Drop Down</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="a-menu" href="#">Drop Down 3</a></li>
+                                <li><a class="a-menu" href="#">Drop Down 4</a></li>
+                                <li><a class="a-menu" href="#">Drop Down 5</a></li>
+                            </ul>    
+                        </li>
+                        <li><a class="a-menu" href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+         </header>
+
+        <!-- SECCION CONTENIDO -->
+        <!-- HOME -->
+        <section class="home">
+            <div class="container">
+                <img class="img-intro" src="img/intro-img.svg">
+                <h1 class="titulo-home">
+                    <span class="span-block">We provide</span>
+                    <span class="span-block span-celeste">solutions</span>
+                    <span class="span-block">for your business!</span>
+                </h1>
+                <div class="botones">
+                    <button class="boton-started" type="button">Get Started</button>
+                    <button class="boton-services" type="button">Our Services</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT US -->
+        <section class="about-us">
+            <div class="container">
+                <h2 class="titulo-section">About Us</h2>
+                <p class="descripcion-title">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <div class="img-about-us-1">
+                    <img class="img-section" src="img/about-img.svg">
+                </div>
+                <article>
+                    <p class="parrafo-about-us">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <!-- BOXES -->
+                    <div class="contenedor-boxes">
+                        <!-- BOX 1 -->
+                        <div class="contenedor-box">
+                            <i class="icono-box fas fa-shopping-bag"></i>
+                            <h5 class="titulo-box">Eiusmod Tempor</h3>
+                            <p class="parrafo-box">
+                            Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi
+                            </p>
+                        </div>
+                        <!-- BOX 2 -->
+                        <div class="contenedor-box">
+                            <i class="icono-box far fa-image"></i>
+                            <h5 class="titulo-box">Magni Dolores</h3>
+                            <p class="parrafo-box">
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                            </p>
+                        </div>
+                        <!-- BOX 3 -->
+                        <div class="contenedor-box">
+                            <i class="icono-box far fa-chart-bar"></i>
+                            <h5 class="titulo-box">Dolor Sitema</h3>
+                            <p class="parrafo-box">
+                            Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata
+                            </p>
+                        </div>
+                    </div>
+            </article>
+
+            <article>
+                <!--Imagen-->
+                <div>
+                    <img class="img-section img-about-us-2" src="img/about-extra-1.svg">
+                </div>
+                <div class="container-about-us-1">
+                    <div class="container-textos">
+                        <p class="parrafo-negrita-about-us">
+                        Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.
+                        </p>
+                        <p class="parrafo-about-us">
+                        Ipsum in aspernatur ut possimus sint. Quia omnis est occaecati possimus ea. Quas molestiae perspiciatis occaecati qui rerum. Deleniti quod porro sed quisquam saepe. Numquam mollitia recusandae non ad at et a.
+                        </p>
+                        <p class="parrafo-about-us">
+                        Ad vitae recusandae odit possimus. Quaerat cum ipsum corrupti. Odit qui asperiores ea corporis deserunt veritatis quidem expedita perferendis. Qui rerum eligendi ex doloribus quia sit. Porro rerum eum eum.
+                        </p>
+                    </div>
+                </div>
+            </article>
+            
+            <article>
+                <!--Imagen-->
+                <img class="img-section" src="img/about-extra-2.svg">
+                <p class="parrafo-negrita-about-us margin-top-about-us">
+                Neque saepe temporibus repellat ea ipsum et. Id vel et quia tempora facere reprehenderit.
+                </p>
+                <p class="parrafo-about-us">
+                Delectus alias ut incidunt delectus nam placeat in consequatur. Sed cupiditate quia ea quis. Voluptas nemo qui aut distinctio. Cumque fugit earum est quam officiis numquam. Ducimus corporis autem at blanditiis beatae incidunt sunt.
+                </p>
+                <p class="parrafo-about-us">
+                Voluptas saepe natus quidem blanditiis. Non sunt impedit voluptas mollitia beatae. Qui esse molestias. Laudantium libero nisi vitae debitis. Dolorem cupiditate est perferendis iusto.
+                </p>
+                <p class="parrafo-about-us">
+                Eum quia in. Magni quas ipsum a. Quis ex voluptatem inventore sint quia modi. Numquam est aut fuga mollitia exercitationem nam accusantium provident quia.
+                </p>
+                <!--Imagen-->
+                <img>
+            </article>
+            </div>
+        </section>
+
+        <!-- SERVICES -->
+        <main class="services">
+            <div class="container">
+                <h2 class="titulo-section">Services</h2>
+                <p class="descripcion-title">
+                Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.
+                </p>
+                <div class="card-container">
+                    <!--Card wave-->
+                    <section class="cards-services">
+                        <i class="icono-cards-services icono-rosa iconify" data-icon="ion-ios-analytics-outline" data-inline="false"></i>                    
+                        <h5 class="titulo-cards">Lorem Ipsum</h5>
+                        <p class="parrafo-cards">
+                        Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident
+                        </p>
+                    </section>
+                    <!--Card libro-->
+                    <section class="cards-services">
+                        <i class="icono-cards-services icono-amarillo iconify" data-icon="ion-ios-bookmarks-outline" data-inline="false"></i>
+                        <h5 class="titulo-cards">Dolor Sitema</h5>
+                        <p class="parrafo-cards">
+                        Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata                    
+                        </p>
+                    </section>
+                    <!--Card pagina-->
+                    <section class="cards-services">
+                        <i class="icono-cards-services icono-aqua iconify" data-icon="ion-ios-paper-outline" data-inline="false"></i>
+                        <h5 class="titulo-cards">Sed ut perspiciatis</h5>
+                        <p class="parrafo-cards">
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur                    
+                        </p>
+                    </section>
+                    <!--Card velocidad-->
+                    <section class="cards-services">
+                        <i class="icono-cards-services icono-verde iconify" data-icon="ion-ios-speedometer-outline" data-inline="false"></i>
+                        <h5 class="titulo-cards">Magni Dolores</h5>
+                        <p class="parrafo-cards">
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum                    </p>
+                    </section>
+                    <!--Card globo-->
+                    <section class="cards-services">
+                        <i class="icono-cards-services icono-fluor iconify" data-icon="et:global" data-inline="false"></i>
+                        <h5 class="titulo-cards">Nemo Enim</h5>
+                        <p class="parrafo-cards">
+                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque                    </p>
+                    </section>
+                    <!--Card reloj-->
+                    <section class="cards-services">
+                        <i class="icono-cards-services icono-azul iconify" data-icon="bytesize:clock" data-inline="false"></i>
+                        <h5 class="titulo-cards">Eiusmod Tempor</h5>
+                        <p class="parrafo-cards">
+                            Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi
+                        </p>
+                    </section>
+                </div>
+            </div>
+        </main>
+
+        <!-- WHY CHOOSE US? -->
+        <section class="why-choose-us">
+            <div class="container">
+                <h2 class="titulo-section">Why choose us?</h2>
+                <p class="descripcion-title">
+                Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.
+                </p>
+                <div class="container-card-why-choose-us">
+                    <!--Card diamante-->
+                    <section class="cards-why-choose-us">
+                        <i class="icono-cards-why-choose-us far fa-gem"></i>
+                        <h4 class="titulo-card-why-choose-us">Corporis dolorem</h4>
+                        <p class="parrafo-card-why-choose-us">
+                        Deleniti optio et nisi dolorem debitis. Aliquam nobis est temporibus sunt ab inventore officiis aut voluptatibus.
+                        </p>
+                        <a class="read-more">Read more</a>
+                    </section>
+                    <!--Card Libro-->
+                    <section class="cards-why-choose-us">
+                        <i class="icono-cards-why-choose-us fa fa-language" aria-hidden="true"></i>
+                        <h4 class="titulo-card-why-choose-us">Voluptates dolores</h4>
+                        <p class="parrafo-card-why-choose-us">
+                        Voluptates nihil et quis omnis et eaque omnis sint aut. Ducimus dolorum aspernatur.
+                        </p>
+                        <a class="read-more">Read more</a>
+                    </section>
+                    <!--Card Cuadro-->
+                    <section class="cards-why-choose-us">
+                        <i class="icono-cards-why-choose-us far fa-object-group"></i>
+                        <h4 class="titulo-card-why-choose-us">Eum ut aspernatur</h4>
+                        <p class="parrafo-card-why-choose-us">
+                        Autem quod nesciunt eos ea aut amet laboriosam ab. Eos quis porro in non nemo ex.
+                        </p>
+                        <a class="read-more">Read more</a>
+                    </section>
+                </div>
+                <div class="container-contador">
+                    <div class="sub-container">
+                        <span class="numero">274</span>
+                        <p class="texto">Clients</p>
+                    </div>
+                    <div class="sub-container">
+                        <span class="numero">421</span>
+                        <p class="texto">Projects</p>
+                    </div>
+                    <div class="sub-container">
+                        <span class="numero">1,364</span>
+                        <p class="texto">Hours Of Support</p>
+                    </div>
+                    <div class="sub-container">
+                        <span class="numero">18</span>
+                        <p class="texto">Hard Workers</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </body>
+</html>
